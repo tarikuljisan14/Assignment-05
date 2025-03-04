@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="popins container mx-auto">
+    <header>
+        <!-- hero section -->
+        <section class="flex items-center justify-between bg-[#f1f1f1] p-4 mt-5">
+            <section class="flex  items-center p-4 gap-2 ">
+                <div  class="w-[15%]">
+                    <img src="logo (1).png" alt="" >
+                </div>
+                <div>
+                    <h1 class="text-2xl">Dev<span class="text-[#00303C] font-bold">Board</span></h1>
+                </div>
+            </section>
+            <div class="flex items-center gap-2 p-4">
+                <div>
+                    <img src="checkbox.png" alt="">
+                </div>
+                <div>
+                    <h1 class="font-bold text-2xl">24</h1>
+                </div>
+                <div class="w-[20%] ml-4">
+                    <img src="theme-btn.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+      <section class="flex">
+        <section class=" ">
+            <!-- task assigned section -->
+            <section class="flex justify-start items-center gap-10 p-4">
+                <!-- card section -->
+                <div class="card  w-50 shadow-sm  h-20">
+                    <div class="p-4 ">
+                      <div class="  flex items-center gap-4">
+                        <div class="w-[12%]">
+                            <img src="checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p class="  text-sm">Task Assigned</p>
+                            <p class="font-bold">06</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                
+            
+            <section>
+                <!-- discover  -->
+                <div class="bg-gradient-to-r from-blue-600 to bg-blue-300 text-white rounded-xl p-5 flex items-center w-full gap-3  ">
+                    <div class="flex-shrink-0">
+                        <img src="board.png" alt="">
+    
+                    </div>
+                    <div>
+                        <button id="discover" class="text-2xl"> >Discover Something <br> New Today!</button> 
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- date -->
+            <section>
+                <div class="card bgbase-100 w-50 shadow-sm">
+                    <div class="p-4">
+                      <div class="flex items-center gap-4">
+                        <div class="w-[22%]">
+                            <img src="calender.png" alt="">
+                        </div>
+                        <div>
+                            <h2 class="card title text-base font-semibold ">Wed, <br> Jul 28 2025</h2>
+    
+                </div>
+                      </div>
+            </section>
+        </section>
+    
+         
+             
+         
+         
+          <!-- card section -->
+         <section class="">
+            <section class="grid grid-cols-3 gap-2 ">
+                <!-- mobile section -->
+                 
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12 ">shopease</h1>
+                    <div class="card-body ">
+                      <h2 class="card-title text-lg">Fix Mobile Button Issue</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button class="btn btn-primary" id="btn">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12">CloudSync</h1>
+                    <div class="card-body">
+                      <h2 class="card-title text-lg">Add Dark Mode</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button class="btn btn-primary" id="btn2">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12">SwiftPay</h1>
+                    <div class="card-body">
+                      <h2 class="card-title text-lg">Optimize Home page</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button id="btn3" class="btn btn-primary ">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12">Meta</h1>
+                    <div class="card-body">
+                      <h2 class="card-title text-lg">Add New Emoji</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button class="btn btn-primary" id="btn4">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12">Google LLC</h1>
+                    <div class="card-body">
+                      <h2 class="card-title text-lg">Intregeted OpenAI API</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button class="btn btn-primary" id="btn5">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-80 bg-base-100 card-xl shadow-sm">
+                    <h1 class="mx-12">Glassdoor</h1>
+                    <div class="card-body">
+                      <h2 class="card-title text-lg">Improve Job Searching</h2>
+                      <p class="text-gray-500 text-sm">Debug using Chrome <br> DevTools, check for overlappi....</p>
+                      <div class="justify-end card-actions items-center">
+                        <p class="text-sm">Deadline <br> 21 March 2025</p> 
+                        
+                        <button class="btn btn-primary" id="btn6">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+               </section>
+             
+         </section>
+         </section>
+         <section>
+            <section class=" shadow-sm p-4 min-h-screen w-70 mt-2" id="activity">
+    
+    
+    
+               <div class="flex gap-2 ">
+                <div >
+                    <img src="activity.png" alt="">
+                </div>
+                <div>
+                    <h1>Activity Log</h1>
+                </div>
+               </div>
+               <div class="mt-4 ">
+                <button class="bg-blue-500 px-3 py-1 text-white rounded-lg text-sm ">Clear History</button>
+               </div>
+             </section>
+            
+              </section>
+      </section>
+         
+        
+     
+    </main>
+    <footer>
+    </footer>
+    <script src="script/script.js "></script>
+    <script src="script/discover.js"></script>
+</body>
+
+</html>
