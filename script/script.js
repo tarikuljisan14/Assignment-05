@@ -18,7 +18,7 @@ document.getElementById('btn2').addEventListener('click',function(){
    const newtime = time.toLocaleTimeString();
    const newelement = document.createElement('p')
    newelement.classList.add('task')
-   newelement.innerText='You have completed the task fix mobile button issue at '+newtime;
+   newelement.innerText='You have completed the task fix Add dark mode issue at '+newtime;
    Activity.appendChild(newelement)
    btn2.setAttribute('disabled',true)
 
@@ -30,7 +30,7 @@ document.getElementById('btn3').addEventListener('click',function(){
    const newtime = time.toLocaleTimeString();
    const newelement = document.createElement('p')
    newelement.classList.add('task')
-   newelement.innerText='You have completed the task fix mobile button issue at '+newtime;
+   newelement.innerText='You have completed the task fix Optimize Home Page issue at '+newtime;
    Activity.appendChild(newelement)
    btn3.setAttribute('disabled',true)
 
@@ -42,7 +42,7 @@ document.getElementById('btn4').addEventListener('click',function(){
    const newtime = time.toLocaleTimeString();
    const newelement = document.createElement('p')
    newelement.classList.add('task')
-   newelement.innerText='You have completed the task fix mobile button issue at '+newtime;
+   newelement.innerText='You have completed the task fix Add new Emoji issue at '+newtime;
    Activity.appendChild(newelement)
    btn4.setAttribute('disabled',true)
 
@@ -54,7 +54,7 @@ document.getElementById('btn5').addEventListener('click',function(){
    const newtime = time.toLocaleTimeString();
    const newelement = document.createElement('p')
    newelement.classList.add('task')
-   newelement.innerText='You have completed the task fix mobile button issue at '+newtime;
+   newelement.innerText='You have completed the task fix Intregreted Open AI API issue at '+newtime;
    Activity.appendChild(newelement)
    btn5.setAttribute('disabled',true)
 
