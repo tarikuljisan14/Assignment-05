@@ -18,10 +18,11 @@
         color: rgb(49, 129, 163);
         color: maroon;
         color: cadetblue;
-        color: rgb(28, 84, 129);
+        color: black;
         background-color:lightgray;
         margin-top: 5px;
         border-radius: 5px;
+        padding: 5px;
       }
     </style>
 </head>
@@ -43,7 +44,7 @@
                     <img src="checkbox.png" alt="">
                 </div>
                 <div>
-                    <h1 class="font-bold text-2xl">24</h1>
+                    <h1 id="taskadd" class="font-bold text-2xl">24</h1>
                 </div>
                 <div class="w-[20%] ml-4" id="color">
                     <img src="theme-btn.png" alt="">
@@ -64,8 +65,8 @@
                             <img src="checkbox.png" alt="">
                         </div>
                         <div>
-                            <p class="  text-sm">Task Assigned</p>
-                            <p class="font-bold">06</p>
+                            <p  class="  text-sm">Task Assigned</p>
+                            <p class="font-bold" id="taskcount">06</p>
                         </div>
                       </div>
                       
@@ -108,7 +109,7 @@
 
       <!-- card section -->
       <section class="">
-        <section class="grid grid-cols-3 gap-20 ">
+        <section class="grid grid-cols-3 gap-10 ">
             <!-- mobile section -->
              
             <div class="card w-80 bg-base-100 card-xl shadow-sm">
@@ -180,7 +181,7 @@
                   <div class="justify-end card-actions items-center">
                     <p class="text-sm">Deadline <br> 21 March 2025</p> 
                     
-                    <button class="btn btn-primary" id="btn6">Completed</button>
+                    <button class="btn btn-primary taskbtn" id="btn6">Completed</button>
                   </div>
                 </div>
               </div>
@@ -189,7 +190,7 @@
      </section>
      </section>
      <section>
-      <section class=" shadow-sm p-4 min-h-screen w-70 mt-2" id="activity">
+      <section class=" shadow-sm p-4 min-h-screen w-70 mt-2" >
     
     
     
@@ -203,6 +204,10 @@
         </div>
         <div class="mt-4 ">
          <button id="clear" class="bg-blue-500 px-3 py-1 text-white rounded-lg text-sm ">Clear History</button>
+        </div>
+
+        <div id="activity">
+
         </div>
       </section>
      

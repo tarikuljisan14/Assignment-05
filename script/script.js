@@ -100,8 +100,7 @@ document.getElementById('clear').addEventListener('click', function() {
  console.log(BTn)
  const Activity=document.getElementById('activity')
  
- const value=Activity.innerText;
- console.log(value)
+Activity.innerText='';
 });
 
 
@@ -124,10 +123,120 @@ document.getElementById('discover').addEventListener('click',function(){
 });
 
 // back main desk section
-document.getElementById('deskbtn').addEventListener('click',function(){
-   console.log('hello')
-   window.location.href='index.html'
-})
+// document.getElementById('deskbtn').addEventListener('click',function(){
+//    console.log('hello')
+//    window.location.href='index.html'
+// })
+
+
+
+// taskcount
+// document.getElementById('btn').addEventListener('click',function(){
+//   const taskCount=document.getElementById('taskcount')
+//   let converttaskCount=parseInt(taskCount.innerText);
+//   console.log(converttaskCount)
+//   if(converttaskCount>0){
+//    converttaskCount --;
+//    taskCount.innerText=converttaskCount;
+//   }
+// })
+
+document.getElementById('btn').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+       
+       taskCount.innerText = convertTaskCount;
+   }
+
+   const taskAdd=document.getElementById('taskadd')
+   let converttaskAdd=parseInt(taskAdd.innerText)
+   
+   converttaskAdd++;
+   taskAdd.innerText=converttaskAdd;
+
+});
+document.getElementById('btn2').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+
+       taskCount.innerText = convertTaskCount;
+   }
+   const taskAdd=document.getElementById('taskadd')
+   let converttaskAdd=parseInt(taskAdd.innerText)
+   
+   converttaskAdd++;
+   taskAdd.innerText=converttaskAdd;
+});
+document.getElementById('btn3').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+
+       taskCount.innerText = convertTaskCount;
+   }
+});
+document.getElementById('btn4').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+
+       taskCount.innerText = convertTaskCount;
+   }
+   const taskAdd=document.getElementById('taskadd')
+   let converttaskAdd=parseInt(taskAdd.innerText)
+   
+   converttaskAdd++;
+   taskAdd.innerText=converttaskAdd;
+});
+document.getElementById('btn5').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+
+       taskCount.innerText = convertTaskCount;
+   }
+   const taskAdd=document.getElementById('taskadd')
+   let converttaskAdd=parseInt(taskAdd.innerText)
+   
+   converttaskAdd++;
+   taskAdd.innerText=converttaskAdd;
+});
+document.getElementById('btn6').addEventListener('click', function () {
+   const taskCount = document.getElementById('taskcount');
+   let convertTaskCount = parseInt(taskCount.innerText);
+   
+   if (convertTaskCount > 0) {
+       convertTaskCount--;
+
+       taskCount.innerText = convertTaskCount;
+   }
+
+   const taskAdd=document.getElementById('taskadd')
+   let converttaskAdd=parseInt(taskAdd.innerText)
+   
+   converttaskAdd++;
+   taskAdd.innerText=converttaskAdd;
+
+
+});
+
+
+// // task add
+// document.getElementById('btn').addEventListener('click',function(){
+  
+// })
 
 
 
