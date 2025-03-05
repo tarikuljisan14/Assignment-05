@@ -122,11 +122,7 @@ document.getElementById('discover').addEventListener('click',function(){
   window.open('discover.html','_blank');
 });
 
-// back main desk section
-// document.getElementById('deskbtn').addEventListener('click',function(){
-//    console.log('hello')
-//    window.location.href='index.html'
-// })
+
 
 
 
@@ -233,10 +229,7 @@ document.getElementById('btn6').addEventListener('click', function () {
 });
 
 
-// // task add
-// document.getElementById('btn').addEventListener('click',function(){
-  
-// })
+
 
 
 
